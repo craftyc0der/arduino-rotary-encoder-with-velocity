@@ -8,8 +8,7 @@ void setup()
 void loop()
 {
   int enc = encoder.readEncoder();
-  int changevalue = 1;
-  if(enc != 0) {
+    if(enc != 0) {
     val = val + (enc);
     val = min(val,4095);
     val = max(val,0);
