@@ -4,7 +4,7 @@ BSD license, check license.txt for more information
 All text above must be included in any redistribution
 
 I strongly urge hardware debouncing with rotary encoders. 
-A 10000pF cap between both the A and B pins to GND (the C pin)
+A 10000pF cap between both the A and B pins to GND (the C or middle pin)
 is suffcient to offer very consistent reads.
 
 *ENC_A* is the arduino pin the A pin of the encoder is plugged in to.
